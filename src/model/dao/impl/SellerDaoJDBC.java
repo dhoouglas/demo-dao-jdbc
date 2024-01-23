@@ -101,7 +101,7 @@ public class SellerDaoJDBC implements SellerDao {
 					+ "WHERE Id = ?"
 					);
 			
-			st.setInt(1, id);	
+			st.setInt(1, id);	 
 			
 			int rows = st.executeUpdate();
 			
